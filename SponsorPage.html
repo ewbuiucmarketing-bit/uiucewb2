@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UIUC EWB | Sponsor</title>
+</head>
+<body >
+    <div class="header-container" style="padding-bottom: 20px; background-image: url(./images/ewbackground.jpg);">
+         <div class="topnav">
+            <a href="index.html"><img src="images/whitelogo.png" alt="EWB logo" height="40"></a>
+            <a href="index.html">Home</a>
+             <div class="dropdown">
+                <button class="dropbtn">Projects▾</button>
+                <div class="dropdown-content">
+                    <a href="MalawiPage.html">Malawi Structures</a>
+                    <br>
+                    <a href="RwandaPage.html">Rwanda</a>
+                    <br>
+                    <a href="WoodfordPage.html">Woodford Water Supply</a>
+                    <br>
+                    <a href="FundraisingPage.html">Fundraising</a>
+                    <br>
+                    <a href="PastProjectsPage.html">Past Projects</a>
+                </div>
+            </div> 
+            <a class="volunteer" href="VolunteerPage.html">Volunteer</a>
+            <a class="gala" href="https://givebutter.com/c/ewb-2026-annual-gala">Gala</a>
+            <a class="active" href="SponsorPage.html">Sponsor</a>
+            <button class="donate" onclick="window.location.href='https://support.ewb-usa.org/campaign/university-of-illinois-urbana-champaign-chapter/c84009'">Donate</button>
+        </div>
+        <div class="smalltopnav">
+            <div class="smalldropdown">
+                <button class="smalldropbtn" style=" color: white; " onclick="showcontent()">Menu▾</button>
+                <div class="smalldropdown-content">
+                    <a href="index.html">Home</a>
+                    <br>
+                    <a href="MalawiPage.html">Malawi Structures</a>
+                    <br>
+                    <a href="RwandaPage.html">Rwanda</a>
+                    <br>
+                    <a href="WoodfordPage.html">Woodford Water Supply</a>
+                    <br>
+                    <a href="FundraisingPage.html">Fundraising</a>
+                    <br>
+                    <a href="PastProjectsPage.html">Past Projects</a>
+                    <br>
+                    <a href="VolunteerPage.html">Volunteer</a>
+                    <br>
+                    <a href="https://ewbuiuc.org/building-bridges-gala">Gala</a>
+                    <br>
+                    <a href="SponsorPage.html">Sponsor</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <h1>Sponsor</h1>
+            </div>
+        </div>
+    </div>
+    <main class="page">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Chapter Sponsors</h2>
+                <div class="sponsorgallery">
+                    <img src="images/figma/sponsor-logo-2.png" alt="Sponsor logo">
+                    <img src="images/figma/sponsor-logo-1.jpg" alt="Sponsor logo">
+                </div>
+
+                <div style="margin-top: 36px; text-align: center;">
+                    <p style="font-size: 24px; font-weight: 700; margin: 0;">Prospective Sponsors:</p>
+                    <p style="font-size: 24px; margin: 12px 0 0;">
+                        Interested in sponsoring EWB-UIUC? <a href="mailto:ewb.uiuc.evp@gmail.com" target="_blank" rel="noreferrer" style="color: black;>email</a> our External Vice President to make arrangements. Thank you!
+                    </p>
+                    <p style="font-size: 24px; margin: 10px 0 0; font-weight: 600;">You may refer to our corporate sponsorship packet here:</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-top: 0;">
+            <div class="container" style="text-align: center;">
+                <embed src="images/figma/20262027-ewb-uiuc-sponsorship-packet-1.pdf" type="application/pdf" width="80%" height="700px" />
+                <!-- <img src="images/figma/sponsor-packet.jpg" alt="Corporate sponsorship packet" style="border-radius: 24px; box-shadow: var(--card-shadow); width: 80%;"> -->
+                <div style="margin-top: 18px;">
+                    <a href="images/figma/20262027-ewb-uiuc-sponsorship-packet-1.pdf" download="20262027-ewb-uiuc-sponsorship-packet-1">
+                        <button type="button">Download File</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<script>
+    function showcontent() {
+        var content = document.querySelector('.smalldropdown-content');
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+        } else {
+            content.style.display = 'block';
+        }
+    }
+</script>
